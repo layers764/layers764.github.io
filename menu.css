@@ -37,6 +37,11 @@ background-color: #191919;
 border-radius: 6px;
 }
 
+img {
+  height: 63px;
+  width: 25;
+  float: left;
+}
 
 nav ul li{
 list-style: none;
