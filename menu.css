@@ -6,12 +6,21 @@ font-family: arial;
 .button {
   background-color: #191919;
   border: none;
-  color: white;
-  padding: 8px 22px;
+  color: #3498db;
+  padding: 10px 22px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 10px;
+  border-radius: 6px;
+}
+.button:hover {
+  background-color: #191919;
+  border: none;
+  color: #2ecc71;
+  padding: 10px 22px;
+  font-size: 12px;
+  border-radius: 6px;
 }
 
 body {
