@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-image: url('/Images/default.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<head>
+<title>Bug Reporting</title>
+<link rel="shortcut icon" href="/Images/favicon.png">
+</head>
+<body>
+
+<h1 style="color:black" style="font-size:40px">DCU Studios Bug Reporting </h1>
+<hl2 style="color:black" style="font-size:40px">Thank You For Taking The Time To Report This Bug</h2>
+
+
+
+
+<div class="tab">
+<button style="color:black" style="font-size:20px" class="tablinks" onclick="openCity(event, 'report')" id="defaultOpen">Reporting</button>
+<button style="color:black" style="font-size:20px" class="tablinks" onclick="openCity(event, 'guidlines')">Reporting Guidelines</button>
+<button style="color:black" style="font-size:20px" class="tablinks" onclick="openCity(event, 'return')">Return To The Main Page</button>
+</div>
+<div id="report" class="tabcontent">
+  <p style="color:black" style="font-size:40px">
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3fKiJGkZpVdjKOLUQXS7oJKwtQnlcqJGx4nXyClTTy_oQrg/viewform?embedded=true" width="640" height="725" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</p>
+</div>
+
+<div id="credits" class="tabcontent">
+  <h3 style="color:black" style="font-size:40px">Special Thanks To Theese People For Helping With The Development Of Our website and minecraft server</h3>
+  <p style="color:black" style="font-size:20px">
+    1.	pwrobot:<br>
+		Developed The Template For This Webpage<br>
+    2.	Our Domain Provider:<br>
+		https://freedns.afraid.org/<br>
+    3. Our Hosting Provider:<br>
+		000webhost.com<br>
+	4.	The Server Software Developers<br>
+	    PocketMine:<br>
+		https://www.pocketmine.net/<br>
+		NukkitX:<br>
+		https://nukkitx.com/articles/<br>
+	5.  All The Amazing Plugin Developers For Theese Platforms<br>
+</p>
+</div>
+<div id="return" class="tabcontent">
+    <p> <a href="https://dcustudios.000webhostapp.com/">Go To Main Page</a>
+	</p>
+	</div>
+	<div id="server" class="tabcontent">
+	<p>
+	<a href="/Server/index.html">Minecraft Server</a>
+	</p>
+	</div>
+
+
+ 
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script>
+   
+</body>
+</html>
