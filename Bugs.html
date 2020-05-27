@@ -2,7 +2,7 @@
 <html>
 <style>
 body {
-  background-image: url('default.jpg');
+  background-image: url('/Images/default.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -10,42 +10,14 @@ body {
 </style>
 <head>
 <title>Bug Reporting</title>
-<link rel="shortcut icon" href="favicon.png">
+<link rel="shortcut icon" href="/Images/favicon.png">
 </head>
 <body>
 
-<h1>DCU Studios Bug Reporting </h1>
-<h2>Thank You For Taking The Time To Report This Bug</h2>
-
-
-
-
-<div class="tab">
-<button style="color:black" style="font-size:20px" class="tablinks" onclick="openCity(event, 'report')" id="defaultOpen">Reporting</button>
-<button style="color:black" style="font-size:20px" class="tablinks" onclick="openCity(event, 'guidlines')">Reporting Guidelines</button>
-</div>
-<div id="report" class="tabcontent">
-<p style="color:black" style="font-size:40px">
+<h1 style="color:black" style="font-size:40px">DCU Studios Bug Reporting </h1>
+<h2 style="color:black" style="font-size:40px">Thank You For Taking The Time To Report This Bug</h2>
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3fKiJGkZpVdjKOLUQXS7oJKwtQnlcqJGx4nXyClTTy_oQrg/viewform?embedded=true" width="640" height="725" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 </p>
 </div>
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
 </body>
 </html>
