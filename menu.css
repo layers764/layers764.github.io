@@ -29,6 +29,13 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+img {
+  height: 63px;
+  width: 25;
+  float: left;
+}
+
 nav{
 
   width: 100%;
