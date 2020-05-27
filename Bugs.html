@@ -32,10 +32,34 @@
   </ul>
 </nav>
 
-<h1 style="color:black" style="font-size:40px">DCU Studios Bug Reporting </h1>
-<h2 style="color:black" style="font-size:40px">Thank You For Taking The Time To Report This Bug</h2>
+<h1>DCU Studios Bug Reporting </h1>
+<h2>Thank You For Taking The Time To Report This Bug</h2>
+<div>
+<button class="button" onclick="openCity(event, 'Dudge')" id="defaultOpen">Reporting Form</button>
+<button class="button" onclick="openCity(event, 'Creep')">Reporting Guidelines</button>
+</div>
+
+<div id="Dudge" class="tabcontent">
 <p align="center"><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd3fKiJGkZpVdjKOLUQXS7oJKwtQnlcqJGx4nXyClTTy_oQrg/viewform?embedded=true" width="640" height="725" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></p>
-</p>
 </div>
 </body>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script>
 </html>
