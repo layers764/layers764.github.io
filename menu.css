@@ -40,6 +40,7 @@ border-radius: 6px;
 }
 
 img {
+  display: block;
   height: 63px;
   width: 25;
   float: left;
