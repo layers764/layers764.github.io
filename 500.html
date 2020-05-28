@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  background-image: url('/Images/default.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+<head>
+<title>DCU Studios</title>
+<link rel="shortcut icon" href="/Images/favicon.png">
+</head>
+<body>
+
+<h1 style="color:black" style="font-size:40px">Error 500</h1>
+<p style="color:black" style="font-size:40px">Internal Server Error</p><br>
+
+
+
+
+</div>
+<div id="return" class="tabcontent" id="defaultOpen">
+  	<form action="/public_html/Realindex.html"><br>
+<input type="submit" value="Return To Main Page" </>
+</form>
+</div>
+
+
+ 
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+</script>
+   
+</body>
+</html>
