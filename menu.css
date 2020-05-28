@@ -83,3 +83,12 @@ nav ul li ul li a:hover {
 padding: 0px 0px;
 
 }
+
+mg ul li {
+   display: block;
+   text-decoration: none;
+   font-size: 25px;
+   font-family: arial;
+   color: #3498db;
+   padding: 0px 20px;
+ }
