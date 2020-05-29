@@ -30,7 +30,7 @@
 </nav>
 
 <h1 style="color:black" style="font-size:40px">DCU Studios World Download Page</h1>
-<p style="color:black" style="font-size:40px">Our Maps Are Sorted Into 3 Categories Mini-Games Role-Plays And The Realm</p><br>
+<p style="color:black" style="font-size:40px">Our Maps Are Sorted Into 3 Categories Mini-Games Role-Plays And The Realm</p>
 
 <div class="tab">
 <button class="button" onclick="openCity(event, 'mg')" id="defaultOpen">Mini-Games</button>
@@ -39,20 +39,25 @@
 <button class="button" onclick="openCity(event, 'inst')">Instalation Instructions</button>
 </div>
 
-<div id="mg" class="tabcontent">
+<div id="mg" class="downloadBtn">
 <h3>Mini-Games Section</h3>
-<button type="button" onclick="window.open('./Worlds/Filename.mcworld')">Place Holder</button>
-
+<ul>
+<li><button type="button" onclick="window.open('./Worlds/Filename.mcworld')">Place Holder</button></li>
+<li><button type="button" onclick="window.open('./Worlds/Filename.mcworld')">Place Holder</button></li>
+<li><button type="button" onclick="window.open('./Worlds/Filename.mcworld')">Place Holder</button></li>
+  <li><button type="button" onclick="window.open('./Worlds/Filename.mcworld')">Place Holder</button></li>
+<li><button type="button" onclick="window.open('./Worlds/Filename.mcworld')">Place Holder</button></li>
+</ul>
 </div>
 
-<div id="rolePlay" class="tabcontent">
+<div id="rolePlay" class="downloadBtn">
 <h3>Role Plays Section</h3>
 </div>
 
-<div id="realm" class="tabcontent">
+<div id="realm" class="downloadBtn">
 <h3>Realms</h3>
 </div>
-<div id="inst" class="tabcontent">
+<div id="inst" class="downloadBtn">
 <h3>Instalation Instructions</h3>
 <p>
 1. Click The Download Button For The World You Want To Download<br>
@@ -64,7 +69,7 @@
 <script>
 function openCity(evt, cityName) {
   var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
+  tabcontent = document.getElementsByClassName("downloadBtn");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
