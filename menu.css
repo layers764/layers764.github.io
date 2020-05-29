@@ -210,6 +210,22 @@ p {
   cursor: pointer;
   margin: 12px 0;
 }
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}.
+vids h2 {
+text-align: left;
+float: left;
+}
+.vids iframe {
+float: left;
+padding: 5px;
+horizontal-align: center;
+}
+
 
 @media only screen and (min-width: 1000px) {
   img {
