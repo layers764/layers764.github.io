@@ -95,8 +95,12 @@ left: 50%;
 -ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 }
-
-
+.downloadBtn ul {
+  list-style: none;
+}
+.downloadBtn ul li {
+  padding: 5px 255px;
+}
 
 @media only screen and (min-width: 100px) {
 img {
