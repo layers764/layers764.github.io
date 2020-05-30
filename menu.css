@@ -197,7 +197,7 @@ display: flex;
 }
 .vids iframe {
   width: auto;
-  height: auto;
+  height: 50px;
   padding: auto 5px;
   justify-content: center;
 }
