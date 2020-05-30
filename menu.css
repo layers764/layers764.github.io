@@ -124,7 +124,8 @@ p {
 }
 .vids {
     float: none;
-    width: 90px;
+    width: 40px;
+    height: 40px;
 }
 .wrapper{
   position: relative;
