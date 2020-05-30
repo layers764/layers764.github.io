@@ -195,8 +195,8 @@ display: flex;
 .wrapper .main_content .info div{
   margin-bottom: 20px;
 }
-.vids {
-  width: 15px;
+.vids iframe {
+  width: 20px;
   height: 20px;
 }
 
