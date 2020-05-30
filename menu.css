@@ -195,6 +195,10 @@ display: flex;
 .wrapper .main_content .info div{
   margin-bottom: 20px;
 }
+.vids {
+  width: 15px;
+  height: 20px;
+}
 
 @media only screen and (min-width: 850px) {
 .bars {
