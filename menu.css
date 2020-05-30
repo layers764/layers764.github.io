@@ -195,15 +195,10 @@ display: flex;
 .wrapper .main_content .info div{
   margin-bottom: 20px;
 }
-.vids {
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-}
 .vids iframe {
-  width: auto;
-  height: 50px;
-  padding: auto 5px;
+  width: 50%;
+  height: auto;
+  padding: 5px 5px;
   horizontal-align: center;
 }
 
