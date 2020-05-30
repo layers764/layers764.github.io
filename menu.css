@@ -196,8 +196,9 @@ display: flex;
   margin-bottom: 20px;
 }
 .vids iframe {
-  width: 20px;
+  width: auto;
   height: 20px;
+  padding: 5px 5px;
 }
 .vids {
   width: auto;
