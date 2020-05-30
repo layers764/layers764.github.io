@@ -186,24 +186,14 @@ display: flex;
   border-bottom: 1px solid #e0e4e8;
 }
 
-.wrapper .main_content .info{
-  margin: 20px;
-  color: #717171;
-  line-height: 25px;
-}
-
-.wrapper .main_content .info div{
-  margin-bottom: 20px;
-}
 .vids iframe {
   width: 50%;
   height: auto;
   padding: 5px 5px;
-  horizontal-align: center;
+  align-items: center;
 }
 
-
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 650px) {
 .bars {
   display: none;
 }
