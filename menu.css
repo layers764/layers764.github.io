@@ -196,14 +196,11 @@ display: flex;
   margin-bottom: 20px;
 }
 .vids iframe {
-  width: 35;
+  width: auto;
   height: auto;
   padding: 15px 15px;
 }
-.vids {
-  width: auto;
-  height: auto;
-}
+
 
 @media only screen and (min-width: 850px) {
 .bars {
