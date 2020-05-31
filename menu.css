@@ -288,6 +288,8 @@ float: left;
 float: left;
 padding: 5px;
 horizontal-align: center;
+height: 250px;
+
 }
 .wrapper {
   display: none;
