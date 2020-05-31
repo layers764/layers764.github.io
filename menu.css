@@ -143,22 +143,25 @@ display: flex;
   padding: 0px 0px;
   position: fixed;
   display: none;
+  text-decoration: none;
 }
 
 .wrapper .sidebar h2{
   color: white;
   text-transform: uppercase;
   text-align: left;
+
 }
 
 .wrapper .sidebar ul li{
   padding: 5px;
   text-decoration: none;
+  color: #3498db;
 }
 
 .wrapper .sidebar ul li a{
   text-decoration: none;
-  color: #bdb8d7;
+  color: #3498db;
   display: block;
 }
 
@@ -171,7 +174,7 @@ display: flex;
 }
 
 .wrapper .sidebar ul li:hover a{
-  color: #fff;
+  color: #2ecc71;
 }
 
 .wrapper .main_content{
