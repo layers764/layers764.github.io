@@ -137,7 +137,7 @@ display: block;
 display: flex;
 }
 .wrapper .sidebar{
-  width: 150px;
+  width: auto;
   height: 100%;
   background: #191919;
   padding: 0px 0px;
@@ -146,11 +146,11 @@ display: flex;
   text-decoration: none;
 }
 
-.wrapper .sidebar h2{
-  color: white;
-  text-transform: uppercase;
-  text-align: left;
-
+.wrapper .sidebar img{
+  width: auto;
+  height: 20px;
+  padding: 0px 5px;
+  justify-content: center;
 }
 
 .wrapper .sidebar ul li{
@@ -211,6 +211,10 @@ background-color: #191919;
 border-radius: 6px;
 display: block;
  }
+nav img {
+  padding: 15px 20px;
+  height: 30px;
+}
  nav ul li{
 text-align: center;
  list-style: none;
