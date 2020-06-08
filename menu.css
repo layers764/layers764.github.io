@@ -109,7 +109,7 @@ transform: translate(-50%, -50%);
   padding: 5px 255px;
 }
 
-@media only screen and (min-width: 10px) {
+@media only screen and (min-width: 1px) {
 img {
   display: none;
 }
@@ -147,16 +147,17 @@ display: flex;
   width: auto;
   height: 100%;
   background: #191919;
-  padding: 0px 0px;
   position: fixed;
   display: none;
   text-decoration: none;
+border-radius: 10px 10px 10px 10px;
 }
 
 .wrapper .sidebar img{
   width: auto;
   height: 20px;
-  padding: 0px 5px;
+  padding: 0px 0px;
+  align-items: center;
   justify-content: center;
 }
 
@@ -200,7 +201,7 @@ display: flex;
   width: 50%;
   height: auto;
   padding: 5px 5px;
-  align-items: center;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 650px) {
