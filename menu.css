@@ -113,7 +113,10 @@ position: fixed;
   top: 30%;
 left: 46%;
 }
-
+nav ul a img.sub {
+  height: 70px;
+padding: 0px 20px;
+}
 @media only screen and (min-width: 1px) {
 img {
   display: none;
