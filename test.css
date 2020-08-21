@@ -1,0 +1,48 @@
+* {
+  font-size: 20px;
+  font-family: arial;
+}
+
+
+
+h1 {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  text-align: center;
+}
+
+h2 {
+  position: absolute;
+  left: 45%;
+  top: 15%;
+  text-align: center;
+}
+
+h3 {
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  text-align: center;
+}
+
+h4 {
+  position: absolute;
+  left: 45%;
+  top: 30%;
+  text-align: center;
+}
+
+p {
+  position: absolute;
+  left: 45%;
+  top: 35%;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  left: 45%;
+  top: 21%;
+  text-align: center;
+}
